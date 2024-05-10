@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    background-color: #343a40;
+    color: #f5f5f5 ;
+    padding: 40px 15px;
+    line-height: 1.5rem;
+}
+.main section{
+    width: 30%;
+}

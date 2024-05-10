@@ -1,0 +1,51 @@
+.left{
+    background-image: url("hero2.jpg");
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+}
+.leftText{
+    text-align: center;
+    line-height: 1.4rem;
+    align-items: center;
+}
+.heroContainer{
+margin: 30px;
+display: flex;
+justify-content: space-around;
+border: 2px solid;
+/* gap: 60px; */
+/* width: 100vw; */
+padding: 10px;
+}
+
+.right1, .right2 {
+    width: 70%;
+}
+.right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 50px; */
+}
+
+.right img{
+    width: 100%;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+    background-color: #fff;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid;
+    align-items: center;
+    text-align: center;
+}
