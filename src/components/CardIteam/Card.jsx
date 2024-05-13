@@ -1,7 +1,7 @@
 import style from "./css_card.module.css"
 function Card({url,name,p}){
     return(
-        <div style={{backgroundColor:"#f5f5f5"}}>
+        <div style={{backgroundColor:""}}>
            
             <section className={style.cards} > 
 

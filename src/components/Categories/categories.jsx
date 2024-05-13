@@ -8,11 +8,11 @@ return(
         <h1>Category</h1>
         <hr/ >
     </div> */}
-    <div style={{display:"flex",border:"2px solid ",justifyContent:"space-between",flexWrap:"wrap",margin:"80px 50px",backgroundColor:"#f5f5f5"}}>
+    <div style={{display:"flex",justifyContent:"space-between",flexWrap:"wrap",margin:"80px 50px",backgroundColor:"#f5f5f5"}}>
       
        {
         data.map((iteam,index)=>(
-            <Card key={index} url={iteam.URL} name={iteam.Name} p={iteam.Products} style={{width:"30%",}}/>
+            <Card key={index} url={iteam.URL} name={iteam.Name} p={iteam.Products} style={{width:"30%"}}/>
         ))
 }
     </div>

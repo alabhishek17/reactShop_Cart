@@ -5,7 +5,8 @@ function Offer(){
 return(
     <div style={{display:"flex" , justifyContent:"space-around",margin:"100px 0px"}}>
         <div className={style.right}>
-           <img src={img} alt="" />
+           <img src={img} alt="" style={{position:"relative"}} />
+           
         </div>
         <div className={style.left}>
         <img src={img1} alt="" />
